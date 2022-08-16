@@ -1,0 +1,41 @@
+*{
+    margin: 0 0 0 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+
+}
+
+.splash {
+    /* display: flex; */
+    height: 100vh;
+    width: 33.3vw;
+    background: url("./rain_forest.jpg") no-repeat fixed center;
+}
+.logo-bg{
+    /* display: absolute; */
+    display: flex;
+    background-color: rgba(0,0,0,.5) ;
+    height: 20%;
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo, #logo-text{
+    display: inline-block;
+    justify-content: center;
+}
+.logo{
+    display: inline-block;
+    height: 7rem;
+    /* margin: 3% auto; */
+
+}
+
+#logo-text{
+    color: white;
+    font-size: 5rem;
+}
